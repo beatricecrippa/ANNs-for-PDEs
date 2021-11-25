@@ -8,10 +8,10 @@ In pdebase.py base classes of ANN-based solvers for elliptic, parabolic and hype
 
 In problems.py the problem data are specified.
 For every type of PDE four problems with different levels of regularity are introduced:
-- Smooth: u(x,y)=sin(pi*x)*sin(pi*y);
+- Smooth: u(x,y)=sin(pi x) sin(pi y);
 - Peak: u(x,y)=exp(-1000(x-0.5)^2-1000(x-0.5)^2);
 - Singularity: u(x,y)=y^0.6;
-- Singularity2: (expressed in polar coordinates) u(rho, theta)=rho^(3/2)*sin(3*theta/2).
+- Singularity2: (expressed in polar coordinates) u(rho, theta)=rho^(3/2) sin(3 theta/2).
 
 In training.py an example of application of the method on the 2-dimensional smooth Poisson problem.
 Download this repository and, before running training.py, create a foalder called 'p1' in the same path where training.py is saved.
