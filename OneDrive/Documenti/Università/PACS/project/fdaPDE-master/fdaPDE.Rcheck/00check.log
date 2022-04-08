@@ -1,0 +1,23 @@
+* using log directory 'C:/Users/beacr/OneDrive/Documenti/Università/PACS/project/fdaPDE-master/fdaPDE.Rcheck'
+* using R version 4.1.2 (2021-11-01)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'fdaPDE/DESCRIPTION' ... OK
+* this is package 'fdaPDE' version '1.1-3'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  'geometry', 'rgl', 'Matrix', 'plot3D', 'plot3Drgl', 'shiny'
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'fdaPDE' can be installed ... ERROR
+Installation failed.
+See 'C:/Users/beacr/OneDrive/Documenti/Università/PACS/project/fdaPDE-master/fdaPDE.Rcheck/00install.out' for details.
+* DONE
+Status: 1 ERROR, 1 NOTE
